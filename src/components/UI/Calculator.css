@@ -1,0 +1,8 @@
+.number {
+  padding: 15px 40px;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #b3b3b3;
+  border: 1px solid #737373;
+  position: absolute; /* delete after */
+}

@@ -1,13 +1,11 @@
+import React from 'react';
 import './App.css';
-import Names from './components/names';
+import Number from './components/UI/Calculator';
 
 function App() {
   return (
     <div className="App">
-      <Names name="Gustavo" />
-      <Names name="Ariel" />
-      <Names name="Porcilio" />
-      <Names age={41} />
+      <Number number={1} />
     </div>
   );
 }
