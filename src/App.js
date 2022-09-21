@@ -1,15 +1,15 @@
 import './App.css';
-import Names from './components/names';
+import React from 'react';
+import Calculator from './components/UI/Calculator';
 
-function App() {
-  return (
-    <div className="App">
-      <Names name="Gustavo" />
-      <Names name="Ariel" />
-      <Names name="Porcilio" />
-      <Names age={41} />
-    </div>
-  );
+class App extends React.PureComponent {
+  render() {
+    return (
+      <div className="App">
+        <Calculator />
+      </div>
+    );
+  }
 }
 
 export default App;
