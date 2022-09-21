@@ -1,13 +1,15 @@
-import React from 'react';
 import './App.css';
-import Number from './components/UI/Calculator';
+import React from 'react';
+import Calculator from './components/UI/Calculator';
 
-function App() {
-  return (
-    <div className="App">
-      <Number number={1} />
-    </div>
-  );
+class App extends React.PureComponent {
+  render() {
+    return (
+      <div className="App">
+        <Calculator />
+      </div>
+    );
+  }
 }
 
 export default App;
