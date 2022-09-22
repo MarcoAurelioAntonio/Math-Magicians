@@ -15,7 +15,6 @@ function Calculator() {
 
   return (
     <section>
-      <h2>Let&apos;s do some math!</h2>
       <div className="calculator">
 
         <div className="in">
@@ -27,7 +26,7 @@ function Calculator() {
 
         {/* operators */}
         <button onClick={handleClick} className="di y" type="button">÷</button>
-        <button onClick={handleClick} className="mu y" type="button">x</button>
+        <button onClick={handleClick} className="mu y x" type="button">x</button>
         <button onClick={handleClick} className="mi y" type="button">-</button>
         <button onClick={handleClick} className="pl y" type="button">+</button>
         <button onClick={handleClick} className="eq y" type="button">=</button>
