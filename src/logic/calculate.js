@@ -1,7 +1,7 @@
 import operate from './operate';
 
 function isNumber(item) {
-  return !!item.match(/[0-9]+/);
+  return !!item.match(/[0-9]+/); // only if is a number between 0 and 9 returns "true".
 }
 
 /**
