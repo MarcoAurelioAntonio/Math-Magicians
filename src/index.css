@@ -56,6 +56,7 @@
 
 .mu {
   grid-area: mu;
+  font-size: 10px;
 }
 
 .mi {
@@ -145,4 +146,8 @@
 .y:active {
   background-color: rgb(227, 149, 5);
   transform: scale(0.99);
+}
+
+.x {
+  font-size: 20px;
 }
