@@ -1,0 +1,32 @@
+.calculator-container {
+  width: 400px;
+  height: auto;
+  border: 1px solid grey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screen {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: auto;
+  height: 50px;
+  padding: 5px 37px;
+  font-size: 30px;
+  background-color: #d3d3d3;
+  color: white;
+  font-weight: 700;
+}
+
+.buttons-group {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 70px 70px 70px 70px;
+}
+
+.bottom-group {
+  display: grid;
+  grid-template-columns: auto 96px 89px;
+  grid-template-rows: 70px;
+}
