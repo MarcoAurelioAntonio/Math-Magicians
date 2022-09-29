@@ -1,0 +1,13 @@
+.button-container {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d3d3d3;
+  font-size: 25px;
+}
+
+.operator {
+  background-color: orange;
+}
