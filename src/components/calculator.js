@@ -17,7 +17,7 @@ function Calculator() {
 
   return (
     <div className="app-calc">
-      <h2 className="title">Lest`s do some Maths!!</h2>
+      <h2 className="title">Let`s do some Maths!!</h2>
       <div className="calculator-container">
         <div className="screen">
           {state.total}
