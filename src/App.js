@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Calculator from './components/UI/calculator';
+import Calculator from './components/calculator';
 
 const App = () => (
   <div className="App">
