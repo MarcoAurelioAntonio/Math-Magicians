@@ -1,5 +1,5 @@
 /* eslint-disable */
-import operate from '../Logic/operate';
+import operate from '../logic/operate';
 /* eslint-enable */
 
 describe('Check if operate function gives the results', () => {
