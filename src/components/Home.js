@@ -2,17 +2,23 @@ import React from 'react';
 import './Home.css';
 
 const Home = () => (
-  <div>
-    <h2>Welcome to our page!</h2>
+  <div className="home-container">
+    <h2 className="home-title">Welcome to our page!</h2>
     <p className="welcome-1">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-      Animi cumque sit quaerat cum,ratione soluta! Eveniet, magnam
-      eum ea excepturi et temporibus laborum at officia!
+      We will always have STEM with us. Some things will drop out of the public
+      eye and go away, but there will always be science, engineering, and
+      technology. And there will always, always be mathematics.
+      <br />
+      <br />
+      <strong>— Katherine Johnson, African-American mathematician</strong>
     </p>
     <p className="welcome-2">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elite.
-      Animi cumque sit quaerat cum, ratione soluta! Eveniet, magnam
-      eum ea excepturi et temporibus laborum at officia!
+      Pure mathematics is the world’s best game. It is more absorbing than
+      chess, more of a gamble than poker, and lasts longer than Monopoly. It’s
+      free. It can be played anywhere — Archimedes did it in a bathtub.
+      <br />
+      <br />
+      <strong>—Richard J. Trudeau, mathematician</strong>
     </p>
   </div>
 );

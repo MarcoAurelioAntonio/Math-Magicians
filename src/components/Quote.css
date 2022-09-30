@@ -1,5 +1,12 @@
 .quote-container {
-  width: 500px;
+  width: 1000px;
   height: auto;
-  border: 1px solid grey;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote-text {
+  font-size: 30px;
+  color: white;
 }

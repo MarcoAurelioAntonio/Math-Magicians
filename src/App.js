@@ -1,4 +1,4 @@
-import './App.css';
+/* import './App.css'; */
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import React from 'react';
 import Calculator from './components/calculator';

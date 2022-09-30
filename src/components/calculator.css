@@ -1,9 +1,18 @@
 .calculator-container {
-  width: 400px;
+  margin-top: 20px;
+  width: 600px;
   height: auto;
   border: 1px solid grey;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 8px 5px 15px rgb(59, 65, 113);
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-style: italic;
 }
 
 .screen {
@@ -11,9 +20,9 @@
   align-items: center;
   justify-content: flex-end;
   width: auto;
-  height: 50px;
-  padding: 5px 37px;
-  font-size: 30px;
+  height: 80px;
+  padding: 5px 55px;
+  font-size: 50px;
   background-color: #d3d3d3;
   color: white;
   font-weight: 700;
@@ -22,11 +31,11 @@
 .buttons-group {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-template-rows: 70px 70px 70px 70px;
+  grid-template-rows: 100px 100px 100px 100px;
 }
 
 .bottom-group {
   display: grid;
-  grid-template-columns: auto 96px 89px;
-  grid-template-rows: 70px;
+  grid-template-columns: auto 147px 136px;
+  grid-template-rows: 100px;
 }

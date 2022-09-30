@@ -5,9 +5,29 @@
   justify-content: center;
   align-items: center;
   border: 1px solid #d3d3d3;
-  font-size: 25px;
+  background-color: white;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.button-container:hover {
+  background-color: #f3f3f3;
+  cursor: pointer;
 }
 
 .operator {
   background-color: orange;
+  font-size: 40px;
+}
+
+.operator:hover {
+  background-color: orange;
+}
+
+.button-container:active {
+  scale: 0.95;
+}
+
+.operator:active {
+  scale: 0.95;
 }
